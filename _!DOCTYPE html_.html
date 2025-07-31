@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vilões do Batman</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #eee8e8;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 5px 10px;
+    }
+
+    nav ul li a:hover {
+      background-color: #444;
+      border-radius: 5px;
+    }
+
+    main {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .content-wrapper {
+      background-color: #2a2a2a;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .intro {
+      background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/df5m3qg-4565715b-e979-4ccb-bfa9-abb1399e2a11.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGY1bTNxZy00NTY1NzE1Yi1lOTc5LTRjY2ItYmZhOS1hYmIxMzk5ZTJhMTEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.q5PiZTVEEtvEH2FOQqFW72MF88EOX1MsQvLjnF_YGpM");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+
+    .posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .post {
+      background-color: #444;
+      border-radius: 10px;
+      padding: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .post img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .post h2 {
+      margin: 15px 0;
+      color: #ffd700;
+    }
+
+    .link-post {
+      color: #1e90ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .link-post:hover {
+      text-decoration: underline;
+    }
+
+    .post:hover {
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-wrapper">
+      <section class="intro">
+        <h1>Vilões Icônicos do Batman</h1>
+        <p>Batman enfrentou muitos inimigos ao longo dos anos, mas alguns se destacam por sua complexidade, crueldade e relação profunda com o herói.</p>
+      </section>
+
+      <section class="posts">
+        <article class="post">
+          <img src="https://wp-content.amenteemaravilhosa.com.br/2018/12/coringa.jpg" alt="Coringa">
+          <h2>Coringa</h2>
+          <p>O maior arqui-inimigo do Batman. Coringa é insano, imprevisível e cruel. Sua obsessão pelo caos contrasta com o senso de justiça do herói. É um vilão sem limites e sem medo da morte.</p>
+        </article>
+
+        <article class="post">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/8/8a/Mulher-gato.jpg" alt="Mulher-Gato">
+          <h2>Mulher-Gato</h2>
+          <p>Selina Kyle é ladra, justiceira e por vezes aliada. Com sua agilidade e inteligência, Mulher-Gato desafia o Batman não só fisicamente, mas também emocionalmente. Sua relação é ambígua e cheia de tensão.</p>
+        </article>
+
+        <article class="post">
+          <img src="https://i0.wp.com/cromossomonerd.com.br/wp-content/uploads/2019/08/duas-caras-capa.png?fit=1068%2C600" alt="Duas-Caras">
+          <h2>Duas-Caras</h2>
+          <p>Harvey Dent era um promotor honesto, mas após um ataque com ácido, tornou-se o vilão Duas-Caras. Com decisões baseadas em cara ou coroa, representa o conflito entre justiça e caos.</p>
+        </article>
+      </section>
+    </div>
+  </main>
+
+</body>
+</html>
+
+
